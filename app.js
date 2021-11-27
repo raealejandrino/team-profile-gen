@@ -1,3 +1,3 @@
 const Team = require('./lib/Team');
 
-new Team().initializeManager();
+new Team().initializeManager().then(Team.initiailizeTeam());
