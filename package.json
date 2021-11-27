@@ -18,5 +18,8 @@
   "homepage": "https://github.com/raealejandrino/team-profile-gen#readme",
   "devDependencies": {
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }
