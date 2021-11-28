@@ -6,7 +6,10 @@ const testTeam = new Team();
 
 // console.log(testTeam.initializeManager());
 
-testTeam.initializeManager();
+testTeam.initializeManager()
+// .then(data => {
+//     writeFile(data)
+// });
 
 
 

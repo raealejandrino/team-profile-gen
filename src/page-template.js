@@ -2,6 +2,7 @@
 const employeeCards = (employees) => {
 
     if (employees) {
+        
         employees.map(employee => {
 
             if (employee.github) {
@@ -47,8 +48,8 @@ const employeeCards = (employees) => {
 
     
         });
-    }
-}
+    } 
+};
 
 
 const generatePage = (manager, employees) => {
