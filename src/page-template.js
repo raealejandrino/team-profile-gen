@@ -1,4 +1,4 @@
-
+let fillIn = "";
 const employeeCards = (employees) => {
 
     if (employees) {
@@ -6,8 +6,8 @@ const employeeCards = (employees) => {
         employees.map(employee => {
 
             if (employee.github) {
-
-                return `
+                console.log(employee.github);
+                fillIn += `
                 <div class="col mb-3">
                     <div class="card">
                         <div class="card-header">
@@ -27,7 +27,7 @@ const employeeCards = (employees) => {
 
             } else {
 
-                return `
+                fillIn += `
                 <div class="col mb-3">
                     <div class="card">
                         <div class="card-header">
@@ -48,7 +48,9 @@ const employeeCards = (employees) => {
 
     
         });
-    } 
+        
+    }
+    return fillIn; 
 };
 
 
