@@ -6,7 +6,7 @@ const employeeCards = (employees) => {
         employees.map(employee => {
 
             if (employee.github) {
-                console.log(employee.github);
+               
                 fillIn += `
                 <div class="col mb-3">
                     <div class="card">
